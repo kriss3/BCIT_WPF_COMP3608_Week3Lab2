@@ -1,23 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using DataAccess;
+﻿using DataAccess;
 using DataAccess.Northwind2013DataSetTableAdapters;
+using System.Windows;
 
 namespace Lesson_2
 {
     /// <summary>
-    /// Interaction logic for Window1.xaml
+    /// Interaction logic for DatabaseOps.xaml
+    /// Krzysztof Szczurowski
+    /// Repo address: https://github.com/kriss3/BCIT_WPF_COMP3608_Week3Lab2.git
+    /// Using Northwind2013.accdb as a DataSource;
     /// </summary>
     public partial class DatabaseOps : Window
     {
